@@ -1,5 +1,47 @@
-# AnMDown
-Easy Markdown View for Android
+[![](https://jitpack.io/v/jgabrielfreitas/DataControllerDemo.svg)](https://jitpack.io/#jgabrielfreitas/DataControllerDemo) [![](https://img.shields.io/badge/Language%20-Java-4682b4.svg)](https://jitpack.io/#jgabrielfreitas/DataControllerDemo) 
+![LicenseTextView](https://raw.githubusercontent.com/jgabrielfreitas/LicenseTextView/master/img/licensetextview.png)
+
+
+#LicenseTextView
+Easy License View for Android
+
+###How to
+**Step 1.** Add the JitPack repository to your build file
+```gradle
+allprojects {
+		repositories {
+			...
+			maven { url "https://jitpack.io" }
+		}
+	}
+```
+
+**Step 2.** Add the dependency
+```gradle
+dependencies {
+		compile 'com.github.User:Repo:Tag'
+	}
+```
+**That's it!**
+
+###Usage
+
+Do it in your root layout
+```xml
+<com.jgabrielfreitas.androidmdown.widget.LicenseTextView
+        android:id="@+id/licenseTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/license"
+        app:backgroundLicenseColor="#F7F7F7"
+        app:licenseColor="#333333" />
+```
+
+To have your text look like this :
+![LicenseTextView](https://raw.githubusercontent.com/jgabrielfreitas/LicenseTextView/master/img/license_print.jpg)
+
+
 
 ###License
 ```
