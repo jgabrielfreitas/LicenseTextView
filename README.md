@@ -19,7 +19,7 @@ allprojects {
 **Step 2.** Add the dependency
 ```gradle
 dependencies {
-		compile 'com.github.User:Repo:Tag'
+		compile 'com.github.jgabrielfreitas:LicenseTextView:1.0.0'
 	}
 ```
 **That's it!**
