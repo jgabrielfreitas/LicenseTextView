@@ -26,7 +26,7 @@ dependencies {
 
 ###Usage
 
-Do it in your root layout
+> Do it in your root layout
 ```xml
 <com.jgabrielfreitas.androidmdown.widget.LicenseTextView
         android:id="@+id/licenseTextView"
@@ -38,7 +38,7 @@ Do it in your root layout
         app:licenseColor="#333333" />
 ```
 
-To have your text look like this :
+> To have your text look like this :
 ![LicenseTextView](https://raw.githubusercontent.com/jgabrielfreitas/LicenseTextView/master/img/license_print.jpg)
 
 
