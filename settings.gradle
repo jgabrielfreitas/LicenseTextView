@@ -1,1 +1,1 @@
-include ':app', ':androidmdown'
+include ':app', ':licensetextview'

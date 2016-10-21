@@ -3,8 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/LicenseTextView.iml" filepath="$PROJECT_DIR$/LicenseTextView.iml" />
-      <module fileurl="file://$PROJECT_DIR$/androidmdown/androidmdown.iml" filepath="$PROJECT_DIR$/androidmdown/androidmdown.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/licensetextview/licensetextview.iml" filepath="$PROJECT_DIR$/licensetextview/licensetextview.iml" />
     </modules>
   </component>
 </project>
