@@ -62,7 +62,9 @@ public class LicenseTextView extends AbstractRelativeLayout {
 
         TypedArray ta = getContext().obtainStyledAttributes(attrs, R.styleable.LicenseStyle);
         String textColor = ta.getString(R.styleable.LicenseStyle_licenseColor);
+        String text      = ta.getString(R.styleable.LicenseStyle_text);
         String backgroundLicense = ta.getString(R.styleable.LicenseStyle_backgroundLicenseColor);
+
 
         if (textColor != null)
             license.setTextColor(Color.parseColor(textColor));
@@ -73,5 +75,6 @@ public class LicenseTextView extends AbstractRelativeLayout {
             setBackgroundColor(Color.parseColor(backgroundLicense));
         else
             setBackgroundColor(Color.parseColor(defaultLicenseColorBackground));
+        license.setText(text);
     }
 }

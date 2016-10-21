@@ -16,7 +16,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="10dp"
-        android:text="@string/license"
+        app:text="@string/license"
         app:backgroundLicenseColor="#F7F7F7"
         app:licenseColor="#333333" />
 </RelativeLayout>

@@ -3,6 +3,7 @@
 
     <declare-styleable name="LicenseStyle">
         <attr name="licenseColor" format="string" />
+        <attr name="text" format="string" />
         <attr name="backgroundLicenseColor" format="string" />
     </declare-styleable>
 </resources>

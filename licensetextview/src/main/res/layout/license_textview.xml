@@ -11,6 +11,5 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_margin="8dp"
-        android:text="@string/copyright" />
+        android:layout_margin="8dp" />
 </RelativeLayout>
