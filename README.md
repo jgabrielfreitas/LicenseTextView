@@ -11,7 +11,7 @@ Easy License View for Android
 allprojects {
 		repositories {
 			...
-			maven { url "https://jitpack.io" }
+			maven { url  "http://dl.bintray.com/jgabrielfreitas/maven" }
 		}
 	}
 ```
@@ -19,7 +19,7 @@ allprojects {
 **Step 2.** Add the dependency
 ```gradle
 dependencies {
-		compile 'com.github.jgabrielfreitas:LicenseTextView:1.0.0'
+		compile 'com.jgabrielfreitas:licensetextview:1.1.2'
 	}
 ```
 **That's it!**
@@ -27,6 +27,7 @@ dependencies {
 ###Usage
 
 > Do it in your root layout
+
 ```xml
 <com.jgabrielfreitas.androidmdown.widget.LicenseTextView
         android:id="@+id/licenseTextView"
@@ -39,6 +40,7 @@ dependencies {
 ```
 
 > To have your text look like this :
+
 ![LicenseTextView](https://raw.githubusercontent.com/jgabrielfreitas/LicenseTextView/master/img/license_print.jpg)
 
 
